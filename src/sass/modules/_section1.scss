@@ -1,0 +1,56 @@
+.heroFlex {
+    background-color: rgba(204, 204, 204, 0.44);
+    height: 100vh;
+}
+
+.containerFlex{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divImagePlat{
+    height: 70vh;
+    width: 35vw;
+}
+
+.heroH2{
+    font-family: 'amatic';
+    font-size: 60px;
+}
+
+.divTextLeft{
+    display: flex; 
+    flex-direction: column; 
+    width: 52vw;
+    justify-content: center;
+}
+
+.divTextLeft p{
+  font-family: 'inter';
+  width: 500px;
+    
+}
+
+.btnBookTable1{
+    background-color: lightblue;
+    text-decoration: none;
+    color: black;
+    border: 15px solid lightblue;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .btnBookTable1 :hover{
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 15px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    font-size: 15px;
+  }
+  
+  .divFlexBtn{
+    padding-top: 20px;
+  }

@@ -1,0 +1,78 @@
+body{
+  margin: 0px;
+  // font-family: 'amatic';
+  // font-family: 'inter';
+}
+
+.headerFixedTop{
+  position: fixed;
+  background-color: white;
+  font-family: 'inter';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.containerHeaderFlex{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.containerHeaderFlex h1{
+  color: rgb(0, 0, 0);
+  margin-right: 10vw;
+}
+
+.containerHeaderFlex h1 span{
+  color: rgb(56, 212, 239);
+}
+
+.logoFlex{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navbarFlex{
+  display: flex;
+}
+
+.navbarFlex ul{
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  margin-right: 2vw;
+}
+
+.navbarFlex ul li a{
+  color: rgb(111, 111, 111);
+  text-decoration: none;
+  padding: 20px;
+}
+
+.navbarFlex ul li :hover{
+  color:black;
+}
+
+.btnBookTable{
+  margin-left: 10vw;
+  background-color: lightblue;
+  text-decoration: none;
+  color: black;
+  border: 15px solid lightblue;
+  border-radius: 50px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btnBookTable :hover{
+  margin-left: 10vw;
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border: 15px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  font-size: 15px;
+}
