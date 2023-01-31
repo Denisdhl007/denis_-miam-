@@ -1,0 +1,36 @@
+.statsCounter{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/stats-bg.jpg") center center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.containerSection4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rowGy4S4{
+    display: flex;
+}
+
+.colLg3S4{
+    display: flex;
+}
+
+.statsItem p{
+    text-align: center;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    color: rgba(255, 255, 255, 0.732);
+    font-family: 'inter';
+    font-weight: bold;
+}
+
+  .statsCounter .statsItem span {
+    font-size: 48px;
+    display: block;
+    color: #fff;
+    font-weight: 700;
+  }
+  

@@ -110,6 +110,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 53vh;
+    width: 36vw;
 }
 
 .imgFluid1{
@@ -123,11 +125,11 @@
 
 .glightboxPlayBtn{
     position: absolute;
-
     font-size: 60px;
 }
 
 .glightboxPlayBtn a i{
+    position: absolute;
     text-decoration: none;
     color: lightblue;
 }
@@ -137,4 +139,5 @@
     color: rgb(255, 255, 255);
     font-size: 60px;
     text-decoration: none;
+    transition: 0.5s ease-in-out;
 }

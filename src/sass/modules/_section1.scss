@@ -52,6 +52,7 @@
     cursor: pointer;
     font-size: 18px;
     font-family: 'inter';
+    transition: 0.5s ease-in-out;
   }
   
   .divFlexBtn{
@@ -83,6 +84,7 @@
     transition: all 0.2s ease-in;
     border-radius: 50px;
     padding: 10px;
+    transition: 0.5s ease-in-out;
   }
 
   .btnPlayTable span{

@@ -10524,6 +10524,7 @@ body {
 
 .navbarFlex ul li :hover {
   color: black;
+  transition: 0.5s ease-in-out;
 }
 
 .btnBookTable a {
@@ -10545,6 +10546,7 @@ body {
   border: 15px solid rgb(0, 0, 0);
   border-radius: 50px;
   font-size: 15px;
+  transition: 0.5s ease-in-out;
 }
 
 .heroFlex {
@@ -10600,6 +10602,7 @@ body {
   cursor: pointer;
   font-size: 18px;
   font-family: "inter";
+  transition: 0.5s ease-in-out;
 }
 
 .divFlexBtn {
@@ -10627,6 +10630,7 @@ body {
   transition: all 0.2s ease-in;
   border-radius: 50px;
   padding: 10px;
+  transition: 0.5s ease-in-out;
 }
 
 .btnPlayTable span {
@@ -10746,6 +10750,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 53vh;
+  width: 36vw;
 }
 
 .imgFluid1 {
@@ -10763,6 +10769,7 @@ body {
 }
 
 .glightboxPlayBtn a i {
+  position: absolute;
   text-decoration: none;
   color: lightblue;
 }
@@ -10772,6 +10779,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: 60px;
   text-decoration: none;
+  transition: 0.5s ease-in-out;
 }
 
 .whyUsSectionBg {
@@ -10820,6 +10828,7 @@ body {
   background-color: rgba(255, 255, 255, 0.474);
   border-radius: 50px;
   padding: 15px;
+  transition: 0.5s ease-in-out;
 }
 
 .containerwhyUsSectionBg {
@@ -10849,6 +10858,72 @@ body {
   background-color: white;
   justify-content: center;
   align-items: center;
-  height: 30vh;
-  width: 15vw;
+  height: 38vh;
+  width: 16vw;
+  padding: 20px;
+}
+
+.iconBoxDFlex h4 {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "inter";
+  padding: 10px;
+}
+
+.iconBoxDFlex p {
+  text-align: center;
+  font-family: "inter";
+}
+
+.iconBoxDFlex i {
+  background-color: lightblue;
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.statsCounter {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/stats-bg.jpg") center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.containerSection4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rowGy4S4 {
+  display: flex;
+}
+
+.colLg3S4 {
+  display: flex;
+}
+
+.statsItem p {
+  text-align: center;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  color: rgba(255, 255, 255, 0.732);
+  font-family: "inter";
+  font-weight: bold;
+}
+
+.statsCounter .statsItem span {
+  font-size: 48px;
+  display: block;
+  color: #fff;
+  font-weight: 700;
+}
+
+.containerSection5 {
+  display: flex;
+}
+
+.section5HeaderContainer {
+  display: flex;
 }
