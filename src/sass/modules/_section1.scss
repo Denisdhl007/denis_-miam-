@@ -11,7 +11,7 @@
 
 .divImagePlat{
     height: 70vh;
-    width: 35vw;
+    width: 37vw;
 }
 
 .heroH2{
@@ -32,7 +32,7 @@
     
 }
 
-.btnBookTable1{
+.btnBookTable1 a{
     background-color: lightblue;
     text-decoration: none;
     color: black;
@@ -40,6 +40,8 @@
     border-radius: 50px;
     font-size: 15px;
     cursor: pointer;
+    font-size: 18px;
+    font-family: 'inter';
   }
   
   .btnBookTable1 :hover{
@@ -52,5 +54,32 @@
   }
   
   .divFlexBtn{
+    display: flex;
     padding-top: 20px;
+  }
+
+
+  .btnPlayTable a{
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'inter';
+  
+  }
+  
+  .btnPlayTable :hover{
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 15px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    font-size: 18px;
+  }
+
+  .btnPlayTable span{
+    font-size: 18px;
+    font-family: 'inter';
   }

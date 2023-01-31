@@ -1,0 +1,140 @@
+.containerAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130vh;
+}
+
+.sectionHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.sectionHeader h2{
+    font-family: 'inter' ;
+    font-size: 15px;
+    padding: 0px;
+    margin: 5px;
+}
+
+.sectionHeader p{
+    font-family: 'amatic' ;
+    font-size: 50px;
+    padding: 0px;
+    margin: 5px;
+    color: grey;
+}
+
+.sectionHeader p span{
+    font-family: 'amatic' ;
+    font-size: 50px;
+    color: lightblue;
+}
+
+.divImageLeft{
+    display: flex;
+    background-image: url(../img/about.jpg);
+    position: relative;
+    height: 94vh;
+    width: 120vw;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.rowGy4{
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+}
+
+.divCallUs1{
+    display: flex;
+    position: absolute;
+    background-color: #fff;
+    width: 40vw;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.divCallUs1 h4{
+    position: relative;
+    margin: 0px;
+    padding: 5px;
+    font-size: 30px;
+    font-family: 'inter';
+}
+
+.divCallUs1 p{
+    margin: 0px;
+    padding: 5px;
+    font-size: 30px;
+    font-family: 'inter';
+    color: lightblue;
+}
+
+.colLg5DFlex{
+    display: flex;
+    margin-left: 2vw;
+}
+
+.contentPs{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    margin-left: 2vw;
+}
+
+.fstItalic{
+    font-style: italic;
+    font-family: 'inter';
+}
+
+.contentPs ul{
+    text-decoration: none;
+    list-style-type:none;
+    font-family: 'inter';
+}
+
+.contentPs ul li i{
+    color: lightblue;
+}
+
+.positionRelativeMt4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgFluid1{
+    height: 53vh;
+    width: 41vw;
+}
+
+.scndP{
+    font-family: 'inter';
+}
+
+.glightboxPlayBtn{
+    position: absolute;
+
+    font-size: 60px;
+}
+
+.glightboxPlayBtn a i{
+    text-decoration: none;
+    color: lightblue;
+}
+
+.glightboxPlayBtn a i:hover{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-decoration: none;
+}

@@ -1,0 +1,80 @@
+.whyUsSectionBg{
+    height: 77vh;
+    background-color: rgba(164, 163, 163, 0.233);
+    display: flex;
+}
+
+.whyBox{
+    display: flex;
+    background-color: lightblue;
+    height: 50vh;
+    width: 25vw;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.whyBox h3{
+    font-size: 32px;
+    font-family: 'inter';
+}
+
+.whyBox p{
+    font-size: 18px;
+    font-family: 'inter';
+}
+
+.whyBox .textCenterBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.textCenterBtn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'inter';
+    background-color: rgba(38, 38, 213, 0.73);
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.textCenterBtn :hover{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    font-family: 'inter';
+    background-color: rgba(240, 240, 240, 0.73);
+    border-radius: 50px;
+    padding: 15px;
+}
+
+
+.containerwhyUsSectionBg{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.colLg8DFlex{
+    display: flex;
+}
+
+.rowGy4scnd{
+    display: flex;
+}
+
+.colXl4{
+    display: flex;
+    align-items: center;
+    margin: 1vw;
+}
+
+.iconBoxDFlex{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 15vw;
+}
+
