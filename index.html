@@ -40,6 +40,7 @@
     </div>
   </header><!-- End Header -->
 
+  <!-- 1 -->
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="heroFlex">
     <div class="containerFlex">
@@ -80,8 +81,7 @@
 
 
 
-    
-    
+<!-- 2 -->
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="containerAbout" data-aos="fade-up">
@@ -137,7 +137,7 @@
       </div>
     </section><!-- End About Section -->
 
-    
+    <!-- 3 -->
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="whyUsSectionBg">
       <div class="containerwhyUsSectionBg" data-aos="fade-up">
@@ -194,7 +194,7 @@
 
 
 
-
+    <!-- 4 -->
     <!-- ======= Stats Counter Section ======= -->
     <section id="stats-counter" class="statsCounter">
       <div class="containerSection4" data-aos="zoom-out">
@@ -235,136 +235,144 @@
     </section><!-- End Stats Counter Section -->
 
 
-
-
-
-
-
+    <!-- 5 -->
     <!-- ======= Menu Section ======= -->
-    <section id="menu" class="menuSection5">
-      <div class="containerSection5" data-aos="fade-up">
+<section id="menu" class="menuSection5">
+  <div class="containerSection5" data-aos="fade-up">
 
-        <div class="section5HeaderContainer">
-          <div class="sectionHeaderS5">
-            <h2>Our Menu</h2>
-            <p>Check Our <span>Miam Menu</span></p>
+    <div class="section5HeaderContainer">
+      <div class="sectionHeaderS5">
+        <h2>Our Menu</h2>
+        <p>Check Our <span>Miam Menu</span></p>
+      </div>
+    </div>
+    
+    <div class="tabContent" data-aos="fade-up" data-aos-delay="300">
+      <div class="tabPane" id="menu-starters">
+        <div class="tabHeaderTextCenter">
+          <p>Menu</p>
+          <h3>Starters</h3>
+        </div>
+
+        <div class="main">
+            <div id="myBtnContainer">
+              <button class="btnFilter active" onclick="filterSelection('all')"> Show all</button>
+              <button class="btnFilter" onclick="filterSelection('starters')"> Starters</button>
+              <button class="btnFilter" onclick="filterSelection('breakfast')"> Breakfast</button>
+              <button class="btnFilter" onclick="filterSelection('lunch')"> Lunch</button>
+              <button class="btnFilter" onclick="filterSelection('dinner')"> Dinner</button>
+            </div>
+          </div>
+            
+<!-- Portfolio Gallery Grid -->
+      <div class="row">
+        <div class="column starters">
+          <div class="content">
+            <a href="./public/img/menu/menu-item-1.png"> 
+              <img src="./public/img/menu/menu-item-1.png" alt="" style="width:100%"></a>
+            <h4>Magnam Tiste</h4>
+            <p class="ingredientsPara">
+              Lorem, deren, trataro, filede, nerada
+            </p>
+            <p class="pricePara">
+              $5.95
+            </p>
           </div>
         </div>
 
-        <div>
-          <ul class="navUlSection5" data-aos="fade-up" data-aos-delay="200">
+        <div class="column starters">
+          <div class="content">
+            <a href="./public/img/menu/menu-item-2.png"> 
+                <img src="./public/img/menu/menu-item-2.png"  alt="" style="width:100%"></a>
+            <h4>Aut Luia</h4>
+            <p class="ingredientsPara">
+              Lorem, deren, trataro, filede, nerada
+            </p>
+            <p class="pricePara">
+              $14.95
+            </p>
+          </div>
+        </div>
 
-          <li class="nav-item">
-            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
-              <h4>Starters</h4>
-            </a>
-          </li><!-- End tab nav item -->
+        <div class="column breakfast">
+          <div class="content">
+            <a href="./public/img/menu/menu-item-3.png"> 
+                <img src="./public/img/menu/menu-item-3.png"  alt="" style="width:100%"></a>
+            <h4>Est Eligendi</h4>
+            <p class="ingredientsPara">
+              Lorem, deren, trataro, filede, nerada
+            </p>
+            <p class="pricePara">
+              $8.95
+            </p>
+          </div>
+        </div>
+        
+        <div class="column breakfast">
+          <div class="content">
+            <a href="./public/img/menu/menu-item-4.png"> 
+              <img src="./public/img/menu/menu-item-4.png"  alt="" style="width:100%"></a>
+            <h4>Eos Luibusdam</h4>
+            <p class="ingredientsPara">
+              Lorem, deren, trataro, filede, nerada
+            </p>
+            <p class="pricePara">
+              $12.95
+            </p>
+          </div>
+        </div>
 
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
-              <h4>Breakfast</h4>
-            </a><!-- End tab nav item -->
+        <div class="column lunch">
+          <div class="content">
+            <a href="./public/img/menu/menu-item-5.png"> 
+                <img src="./public/img/menu/menu-item-5.png"  alt="" style="width:100%"></a>
+            <h4>Eos Luibusdam</h4>
+            <p class="ingredientsPara">
+              Lorem, deren, trataro, filede, nerada
+            </p>
+            <p class="pricePara">
+              $12.95
+            </p>
+          </div>
+        </div>
 
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
-              <h4>Lunch</h4>
-            </a>
-          </li><!-- End tab nav item -->
 
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner">
-              <h4>Dinner</h4>
-            </a>
-          </li><!-- End tab nav item -->
-        </ul>
+        <div class="column dinner">
+          <div class="content">
+            <a href="./public/img/menu/menu-item-6.png"> 
+            <img src="./public/img/menu/menu-item-6.png"  alt="" style="width:100%"></a>
+            <h4>Laboriosam Direva</h4>
+            <p class="ingredientsPara">
+              Lorem, deren, trataro, filede, nerada
+            </p>
+            <p class="pricePara">
+              $9.95
+            </p>
+          </div>
+        </div>
+
       </div>
     </div>
+  </div>
+</div>
+</div>
 
 
-        <div class="tabContent" data-aos="fade-up" data-aos-delay="300">
-
-          <div class="tabPane" id="menu-starters">
-
-            <div class="tabHeaderTextCenter">
-              <p>Menu</p>
-              <h3>Starters</h3>
-            </div>
-
-            <div class="rowGy5Section5">
-              <div class="colLg4MenuItem">
-                <a href="./public/img/menu/menu-item-1.png" class="glightbox"><img src="./public/img/menu/menu-item-1.png" class="menuImgFluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
-                <p class="ingredientsPara">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="pricePara">
-                  $5.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="colLg4MenuItem">
-                <a href="./public/img/menu/menu-item-2.png" class="glightbox"><img src="./public/img/menu/menu-item-2.png" class="menuImgFluid"  alt=""></a>
-                <h4>Aut Luia</h4>
-                <p class="ingredientsPara">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="pricePara">
-                  $14.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="colLg4MenuItem">
-                <a href="./public/img/menu/menu-item-3.png" class="glightbox"><img src="./public/img/menu/menu-item-3.png" class="menuImgFluid"  alt=""></a>
-                <h4>Est Eligendi</h4>
-                <p class="ingredientsPara">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="pricePara">
-                  $8.95
-                </p>
-              </div><!-- Menu Item -->
-            </div>
-            <div class="rowGy5Section5">
-              <div class="colLg4MenuItem">
-                <a href="./public/img/menu/menu-item-4.png" class="glightbox"><img src="./public/img/menu/menu-item-4.png" class="menuImgFluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredientsPara">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="pricePara">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="colLg4MenuItem">
-                <a href="./public/img/menu/menu-item-5.png" class="glightbox"><img src="./public/img/menu/menu-item-5.png" class="menuImgFluid"  alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredientsPara">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="pricePara">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="colLg4MenuItem">
-                <a href="./public/img/menu/menu-item-6.png" class="glightbox"><img src="./public/img/menu/menu-item-6.png" class="menuImgFluid"  alt=""></a>
-                <h4>Laboriosam Direva</h4>
-                <p class="ingredientsPara">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="pricePara">
-                  $9.95
-                </p>
-              </div><!-- Menu Item -->
-
-            </div>
-          </div>
-        </div><!-- End Starter Menu Content -->
 </section>
 
 
 
+
+
+
+
+
+
+
+
+
+      
+    <!-- 5 -->
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonialsSectionBg">
       <div class="containerSection6" data-aos="fade-up">
@@ -489,7 +497,28 @@
 
 
 
-  <script src="assets/vendor/aos/aos.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="./node_modules/aos/aos.js"></script>
     <!--  Main JS File -->
     <script src="./public/script/main.js"></script>
 
