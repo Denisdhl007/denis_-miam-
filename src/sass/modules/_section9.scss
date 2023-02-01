@@ -53,21 +53,36 @@
 .rowGSection9{
     display: flex;
     border: 1px solid #000;
-    justify-content: center;
-    align-items: center;
+    // justify-content: center;
+    // align-items: center;
     height: 70vh;
-    width: 90vw;
-    background-color: rgba(255, 255, 255, 0.802);
+    width: 80vw;
+    background-color: rgba(229, 229, 229, 0.617);
 }
 
-.colLg4ReservationImg{
-    height: 50vh;
-    width: 30vw;
-
-}
+// .colLg4ReservationImg{
+//     // height: 50vh;
+//     // width: 30vw;
+// }
 
 .colLg4ReservationImg img{
-    height: 50vh;
+    height: 70vh;
     width: 30vw;
+}
 
+.colLg8DFlex{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-family: 'inter';
+}
+
+.formsbookTable{
+    display: flex;
+    width: 40vw;
+}
+
+.rowGy4S9{
+    display: flex;
+    width: 40vw;
 }

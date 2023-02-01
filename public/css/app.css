@@ -10483,6 +10483,7 @@ body {
   align-items: center;
   justify-content: space-evenly;
   width: 100vw;
+  z-index: 9990;
 }
 
 .containerHeaderFlex {
@@ -10680,7 +10681,7 @@ body {
   display: flex;
   background-image: url(../img/about.jpg);
   position: relative;
-  height: 96vh;
+  height: 99vh;
   width: 120vw;
   align-items: flex-end;
   justify-content: center;
@@ -10728,7 +10729,7 @@ body {
 .contentPs {
   display: flex;
   flex-direction: column;
-  width: 35vw;
+  width: 38vw;
   margin-left: 2vw;
 }
 
@@ -10747,21 +10748,22 @@ body {
   color: lightblue;
 }
 
+.scndP {
+  font-family: "inter";
+}
+
 .positionRelativeMt4 {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 53vh;
   width: 36vw;
+  position: relative;
 }
 
 .imgFluid1 {
   height: 53vh;
   width: 41vw;
-}
-
-.scndP {
-  font-family: "inter";
 }
 
 .glightboxPlayBtn {
@@ -10783,6 +10785,99 @@ body {
   transition: 0.5s ease-in-out;
 }
 
+.about .play-btn {
+  width: 94px;
+  height: 94px;
+  background: radial-gradient(var(--color-primary) 50%, rgba(206, 18, 18, 0.4) 52%);
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: calc(50% - 47px);
+  top: calc(50% - 47px);
+  overflow: hidden;
+}
+
+.about .play-btn:before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation: pulsate-btn 2s;
+  animation: pulsate-btn 2s;
+  -webkit-animation-direction: forwards;
+  animation-direction: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps;
+  animation-timing-function: steps;
+  opacity: 1;
+  border-radius: 50%;
+  border: 5px solid rgba(206, 18, 18, 0.7);
+  top: -15%;
+  left: -15%;
+  background: rgba(198, 16, 0, 0);
+}
+
+.about .play-btn:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 100;
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.about .play-btn:hover:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 200;
+  -webkit-animation: none;
+  animation: none;
+  border-radius: 0;
+}
+
+.about .play-btn:hover:after {
+  border-left: 15px solid var(--color-primary);
+  transform: scale(20);
+}
+
+@-webkit-keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+@keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
 .whyUsSectionBg {
   height: 77vh;
   background-color: rgba(164, 163, 163, 0.233);
@@ -11325,19 +11420,29 @@ h1 {
 .rowGSection9 {
   display: flex;
   border: 1px solid #000;
-  justify-content: center;
-  align-items: center;
   height: 70vh;
-  width: 90vw;
-  background-color: rgba(255, 255, 255, 0.802);
-}
-
-.colLg4ReservationImg {
-  height: 50vh;
-  width: 30vw;
+  width: 80vw;
+  background-color: rgba(229, 229, 229, 0.617);
 }
 
 .colLg4ReservationImg img {
-  height: 50vh;
+  height: 70vh;
   width: 30vw;
+}
+
+.colLg8DFlex {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  font-family: "inter";
+}
+
+.formsbookTable {
+  display: flex;
+  width: 40vw;
+}
+
+.rowGy4S9 {
+  display: flex;
+  width: 40vw;
 }

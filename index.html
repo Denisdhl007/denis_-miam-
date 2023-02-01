@@ -31,13 +31,8 @@
       </nav>
 
       <div class="btnBookTable">
-        <a href="#book-a-table" class="moreBtn">Learn More</a>
+        <a href="#book-a-table" id="book-a-table" class="moreBtn">Learn More</a>
       </div>
-
-
-    <!-- 
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i> -->
 
     </div>
   </header><!-- End Header -->
@@ -121,6 +116,14 @@
                 Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
                 velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
               </p>
+
+              
+              
+              <div class="positionRelativeMt4">
+                <img src="assets/img/about-2.jpg" class="imgFluid1" alt="">
+                <a href="https://www.youtube.com/watch?v=q2qDfF0pxFg" class="glightboxPlayBtn"></a>
+              </div>
+
 
               <div class="positionRelativeMt4">
                 <img src="./public/img/about-2.jpg" class="imgFluid1" alt="">
@@ -433,34 +436,47 @@
 
     </div>
   
-  <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
-    <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
-      <div class="row gy-4">
+  <div class="colLg8DFlex">
+    <form action="formsbookTable" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+
+
+      <div class="rowGy4S9">
+
         <div class="col-lg-4 col-md-6">
           <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
           <div class="validate"></div>
         </div>
+
         <div class="col-lg-4 col-md-6">
           <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
           <div class="validate"></div>
         </div>
+
         <div class="col-lg-4 col-md-6">
           <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
           <div class="validate"></div>
         </div>
+      </div>
+
+      <div class="rowGy4S9">
         <div class="col-lg-4 col-md-6">
           <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
           <div class="validate"></div>
         </div>
+
         <div class="col-lg-4 col-md-6">
           <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
           <div class="validate"></div>
         </div>
+
         <div class="col-lg-4 col-md-6">
           <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
           <div class="validate"></div>
         </div>
+
       </div>
+
+
       <div class="form-group mt-3">
         <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
         <div class="validate"></div>
