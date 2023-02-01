@@ -11324,3 +11324,22 @@ h1 {
   width: 80vw;
   border: 1px solid black;
 }
+
+.rowGSection9 {
+  display: flex;
+  border: 1px solid #000;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 90vw;
+}
+
+.colLg4ReservationImg {
+  height: 50vh;
+  width: 30vw;
+}
+
+.colLg4ReservationImg img {
+  height: 50vh;
+  width: 30vw;
+}
