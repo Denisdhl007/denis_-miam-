@@ -57,8 +57,6 @@ body{
   transition: 0.5s ease-in-out;
 }
 
-
-
 .btnBookTable a{
   margin-left: 10vw;
   background-color: lightblue;
@@ -80,3 +78,38 @@ body{
   font-size: 15px;
   transition: 0.5s ease-in-out;
 }
+
+
+
+// A voir si possible
+/* Style the buttons */
+// .btnFilter {
+//   border: none;
+//   outline: none;
+//   padding: 12px 16px;
+//   background-color: white;
+//   cursor: pointer;
+//   font-family: 'inter';
+//   font-size: 18px;
+//   display: inline-block;
+//   position: relative;
+//   }
+  
+//   .btnFilter::after {
+//     content: '';
+//     position: absolute;
+//     width: 100%;
+//     transform: scaleX(0);
+//     height: 2px;
+//     bottom: 0;
+//     left: 0;
+//     background-color: lightblue;
+//     transform-origin: bottom right;
+//     transition: transform 0.25s ease-out;
+//   }
+  
+//   .btnFilter:hover::after {
+//     transform: scaleX(1);
+//     transform-origin: bottom left;
+//   }
+  
