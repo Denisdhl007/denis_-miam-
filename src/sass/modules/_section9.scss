@@ -52,7 +52,7 @@
 
 .rowGSection9{
     display: flex;
-    border: 1px solid #000;
+    // border: 1px solid #000;
     // justify-content: center;
     // align-items: center;
     height: 70vh;
@@ -84,5 +84,54 @@
 
 .rowGy4S9{
     display: flex;
-    width: 40vw;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
 }
+
+.formsbookTableForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.formControl{
+    border: 1px solid rgba(188, 188, 188, 0.626);
+    font-family: 'inter';
+    padding: 18px;
+    margin: 6px;
+}
+
+.formControlMsg{
+    border: 1px solid #bcbcbca0;
+    font-family: "inter";
+    width: 41vw;
+    height: 20vh;
+    margin: 10px 0px 0px 0px;
+    padding: 18px;
+}
+
+
+.BtnTextCenter button{
+    margin-top: 15px;
+    background-color: lightblue;
+    text-decoration: none;
+    color: black;
+    border: 10px solid lightblue;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .BtnTextCenter :hover{
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    font-size: 15px;
+    transition: 0.5s ease-in-out;
+  }
+  

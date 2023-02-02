@@ -11361,11 +11361,11 @@ h1 {
   color: lightblue;
 }
 
-.containerCarousselEmptyS8 {
+.rowGy4Chefs {
   display: flex;
-  height: 40vh;
-  width: 80vw;
-  border: 1px solid black;
+  width: 90vw;
+  justify-content: center;
+  align-items: center;
 }
 
 .containerSection9 {
@@ -11419,7 +11419,6 @@ h1 {
 
 .rowGSection9 {
   display: flex;
-  border: 1px solid #000;
   height: 70vh;
   width: 80vw;
   background-color: rgba(229, 229, 229, 0.617);
@@ -11444,5 +11443,52 @@ h1 {
 
 .rowGy4S9 {
   display: flex;
-  width: 40vw;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.formsbookTableForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.formControl {
+  border: 1px solid rgba(188, 188, 188, 0.626);
+  font-family: "inter";
+  padding: 18px;
+  margin: 6px;
+}
+
+.formControlMsg {
+  border: 1px solid rgba(188, 188, 188, 0.6274509804);
+  font-family: "inter";
+  width: 41vw;
+  height: 20vh;
+  margin: 10px 0px 0px 0px;
+  padding: 18px;
+}
+
+.BtnTextCenter button {
+  margin-top: 15px;
+  background-color: lightblue;
+  text-decoration: none;
+  color: black;
+  border: 10px solid lightblue;
+  border-radius: 50px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.BtnTextCenter :hover {
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border: 10px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  font-size: 15px;
+  transition: 0.5s ease-in-out;
 }
