@@ -10551,6 +10551,58 @@ body {
 }
 
 /* Style the buttons */
+footer {
+  background-color: rgba(0, 0, 0, 0.741);
+  font-family: "inter";
+  border: solid;
+  border-color: black;
+}
+footer .containerFooter {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .footerItem {
+  color: white;
+  display: flex;
+  padding: 50px 0;
+}
+footer .footerItem i {
+  margin: 0 10px;
+}
+footer .footerItem .footerTitle {
+  font-weight: 600;
+  margin-top: 0px;
+}
+footer .footerItem .footerTxt {
+  margin: 5px 0;
+  font-size: 12px;
+  color: grey;
+}
+footer .footerSocial {
+  color: white;
+  padding: 50px 0;
+}
+footer .footerSocial i {
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+footer hr {
+  max-width: 1200px;
+  height: 0px;
+  border: none;
+  border-top: 1px solid grey;
+}
+footer .footer2 {
+  font-size: 12px;
+  color: grey;
+  text-align: center;
+}
+footer .footer2 p {
+  margin: 50px 0;
+}
+
 .heroFlex {
   background-color: rgba(204, 204, 204, 0.44);
   height: 100vh;
@@ -11418,17 +11470,17 @@ h1 {
   right: 20px;
   display: flex;
   flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: white;
   padding: 5px;
   border-radius: 5px;
 }
 .chefMember:hover .socialChefs i {
   font-size: 20px;
   margin: 5px;
-  color: rgba(93, 93, 93, 0.5);
+  color: grey;
 }
 .chefMember:hover .socialChefs i:hover {
-  color: #5d5d5d;
+  color: grey;
 }
 
 .memberInfo {
@@ -11457,6 +11509,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 110vh;
 }
 
 .sectionHeaderS9 {
@@ -11574,4 +11627,94 @@ h1 {
   border-radius: 50px;
   font-size: 15px;
   transition: 0.5s ease-in-out;
+}
+
+.containerSection10 {
+  background-color: rgba(229, 229, 229, 0.617);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionHeaderS10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.sectionHeaderS10 h2 {
+  font-family: "inter";
+  font-size: 15px;
+  padding: 0px;
+  margin: 5px;
+}
+
+.sectionHeaderS10 p {
+  font-family: "amatic";
+  font-size: 50px;
+  padding: 0px;
+  margin: 5px;
+  color: grey;
+}
+
+.sectionHeaderS10 p span {
+  font-family: "amatic";
+  font-size: 50px;
+  color: lightblue;
+}
+
+.containerCarousselEmptyS10 {
+  display: flex;
+  height: 40vh;
+  width: 80vw;
+  border: 1px solid black;
+}
+
+.containerSection11 {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionHeaderS11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.sectionHeaderS11 h2 {
+  font-family: "inter";
+  font-size: 15px;
+  padding: 0px;
+  margin: 5px;
+}
+
+.sectionHeaderS11 p {
+  font-family: "amatic";
+  font-size: 50px;
+  padding: 0px;
+  margin: 5px;
+  color: grey;
+}
+
+.sectionHeaderS11 p span {
+  font-family: "amatic";
+  font-size: 50px;
+  color: lightblue;
+}
+
+.containerCarousselEmptyS11 {
+  display: flex;
+  height: 40vh;
+  width: 80vw;
+  border: 1px solid black;
 }
