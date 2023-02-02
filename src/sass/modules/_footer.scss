@@ -4,55 +4,55 @@ footer {
     border:solid;
     border-color: black;
 
-    .containerFooter {
+.containerFooter {
         display: flex;
         justify-content: space-evenly;
+}
+
+.footerItem {
+    color: white;
+    display: flex;
+    padding: 50px 0;
+
+    i {
+        margin: 0 10px;
     }
 
-    .footerItem {
-        color: white;
-        display: flex;
-        padding: 50px 0;
-
-        i {
-            margin: 0 10px;
-        }
-
-        .footerTitle {
-            font-weight: 600;
-            margin-top: 0px;
-        }
-        
-        .footerTxt {
-            margin: 5px 0;
-            font-size: 12px;
-            color: grey;
-        }
+    .footerTitle {
+        font-weight: 600;
+        margin-top: 0px;
     }
-
-    .footerSocial {
-        color: white;
-        padding: 50px 0;
-
-        a{
-            text-decoration: none;
-            color: white;
-        }
-
-        i {
-            border: 1px solid grey;
-            padding: 5px;
-            border-radius: 15px;
-            margin-right: 5px;
-        }
+    
+    .footerTxt {
+        margin: 5px 0;
+        font-size: 12px;
+        color: grey;
     }
+}
 
-    hr{
-        max-width: 1200px;
-        height: 0px;
-        border: none;
-        border-top: 1px solid grey;
-    } 
+.footerSocial {
+    color: white;
+    padding: 50px 0;
+}
+
+.footerSocial a{
+    text-decoration: none;
+    color: white;
+}
+
+.footerSocial i {
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+hr{
+    max-width: 1200px;
+    height: 0px;
+    border: none;
+    border-top: 1px solid grey;
+} 
 
     .footer2 {
         font-size: 12px;
