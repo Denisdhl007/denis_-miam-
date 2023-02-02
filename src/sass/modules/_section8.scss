@@ -51,6 +51,14 @@
     // border-radius: 0px 0px 50px 50px;
 }
 
+.memberImgChef{
+    // width: 360px;
+    // height: 365px;
+    overflow: hidden;
+    border-radius: 8px 8px 0px 0px;
+    position: relative;
+}
+
 .socialChefs a {
     text-decoration: none;
 }
@@ -62,6 +70,8 @@
     text-decoration: none;
     // display: none;
     position: relative;
+    border: 1px solid black;
+    width: 10%;
 }
 
 .chefMember{
@@ -69,14 +79,6 @@
     margin: 10px;
     // width: 25vw;
     border-radius: 10px 10px 10px 10px;
-}
-
-.memberImgChef{
-    // width: 360px;
-    // height: 365px;
-    overflow: hidden;
-    border-radius: 8px 8px 0px 0px;
-    position: relative;
 }
 
 .imgFluidChef{
