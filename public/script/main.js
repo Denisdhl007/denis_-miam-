@@ -1,10 +1,36 @@
-  
-// // Initiate pURE cOUNTER
-//   new PureCounter();
-
-
   // SECTION 3
 
+
+
+
+
+
+  // SECTION 4
+
+  let count1 = document.getElementById('counter1');
+let count2 = document.getElementById('counter2');
+let count3 = document.getElementById('counter3');
+let count4 = document.getElementById('counter4');
+
+function counterAnimation(counterNum, start, end, duration){
+    let startTimestamp = null;
+    function step(timestamp){
+        if(!startTimestamp ){
+            startTimestamp = timestamp;
+        }
+        let progress = Math.min((timestamp - startTimestamp) / duration, 1);
+        counterNum.innerText = Math.floor(progress * (end - start) + start);
+        if(progress < 1){
+            window.requestAnimationFrame(step);
+        }
+    }
+    window.requestAnimationFrame(step);
+}
+
+counterAnimation(count1, 0, 232, 2000)
+counterAnimation(count2, 0, 521, 4500)
+counterAnimation(count3, 0, 1453, 3000)
+counterAnimation(count4, 0, 32, 1000)
 
   // SECTION 5
 

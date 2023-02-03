@@ -19,7 +19,17 @@
     display: flex;
 }
 
-.statsItem p{
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'inter';
+    color: white;
+}
+
+.counter-p p{
     text-align: center;
     margin-left: 8vw;
     margin-right: 8vw;
@@ -34,4 +44,4 @@
     color: #fff;
     font-weight: 700;
   }
-  
+

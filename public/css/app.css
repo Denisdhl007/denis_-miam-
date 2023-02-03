@@ -10997,6 +10997,7 @@ footer .footer2 p {
 
 .colLg8DFlex {
   display: flex;
+  margin: 10px;
 }
 
 .rowGy4scnd {
@@ -11007,6 +11008,11 @@ footer .footer2 p {
   display: flex;
   align-items: center;
   margin: 1vw;
+}
+
+.colXl4 :hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
 }
 
 .iconBoxDFlex {
@@ -11032,6 +11038,7 @@ footer .footer2 p {
 .iconBoxDFlex p {
   text-align: center;
   font-family: "inter";
+  font-size: 15px;
 }
 
 .iconBoxDFlex i {
@@ -11063,7 +11070,17 @@ footer .footer2 p {
   display: flex;
 }
 
-.statsItem p {
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "inter";
+  color: white;
+}
+
+.counter-p p {
   text-align: center;
   margin-left: 8vw;
   margin-right: 8vw;
