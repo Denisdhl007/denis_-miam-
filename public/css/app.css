@@ -11313,7 +11313,6 @@ h1 {
 }
 
 .containerSection6 {
-  background-color: rgba(229, 229, 229, 0.617);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11350,11 +11349,76 @@ h1 {
   color: lightblue;
 }
 
-.containerCarousselEmptyS6 {
+#testimonials {
+  background-color: rgba(229, 229, 229, 0.617);
+  padding: 20px 0;
+}
+#testimonials .overflowHiden {
+  width: 1200px;
+  overflow: hidden;
+}
+#testimonials .overflowHiden .containerCarousel {
   display: flex;
-  height: 40vh;
-  width: 80vw;
-  border: 1px solid black;
+  width: 400%;
+  transition-duration: 1s;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem {
+  width: 100%;
+  margin-top: 50px;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .greenLine {
+  width: 6px;
+  height: 150px;
+  background-color: rgba(229, 229, 229, 0.617);
+  margin-right: 20px;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .carouselItemText {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .carouselItemText h4 {
+  margin: 10px 0 0 0;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .carouselItemText p {
+  margin: 0;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .carouselItemText .star {
+  color: rgb(253, 207, 0);
+  margin-top: 10px;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .carouselItemText .fa-solid {
+  color: rgb(47, 47, 47);
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .carouselItemImg {
+  margin-left: 20px;
+}
+#testimonials .overflowHiden .containerCarousel .carouselItem .carouselItemContainer .carouselItemImg img {
+  height: 150px;
+  border-radius: 200px;
+  border: 3px solid white;
+}
+#testimonials .carouselBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#testimonials .carouselBtn button {
+  background-color: rgba(49, 49, 49, 0.735);
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+#testimonials .carouselBtn .btnActive {
+  background-color: lightblue;
 }
 
 .containerSection7 {

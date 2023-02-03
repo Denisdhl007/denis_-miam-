@@ -82,6 +82,21 @@ counterAnimation(count4, 0, 32, 1000)
 
   // SECTION 6
 
+let testimonialCarouselBtn = document.querySelectorAll(".carouselBtn > button");
+let carouselItems = document.querySelector(".containerCarousel");
+
+//btn carousel testimonial
+for (let i = 0; i < testimonialCarouselBtn.length; i++) {
+    testimonialCarouselBtn[i].addEventListener("click", ()=>{
+        carouselItems.style.transform = `translateX(${-(testimonialCarouselBtn[i].value)*25}%)`;
+        //btn active color
+        document.querySelector(".btnActive").className="";
+        testimonialCarouselBtn[i].className="btnActive";
+    })
+}
+
+
+
 
   // // Structure possible TEST
   // var swiper = new Swiper('.slides-1', {

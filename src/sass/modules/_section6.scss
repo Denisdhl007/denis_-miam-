@@ -1,5 +1,5 @@
 .containerSection6{
-    background-color: rgba(229, 229, 229, 0.617);
+    // background-color: rgba(229, 229, 229, 0.617);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,9 +36,90 @@
     color: lightblue;
 }
 
-.containerCarousselEmptyS6{
-    display: flex;
-    height: 40vh;
-    width: 80vw;
-    border: 1px solid black;
+#testimonials {
+    background-color: rgba(229, 229, 229, 0.617);
+    padding: 20px 0;
+
+    .overflowHiden {
+        width: 1200px;
+        overflow: hidden;
+
+        .containerCarousel {
+            display: flex;
+            width: 400%;
+            transition-duration: 1s;
+
+            .carouselItem {
+                width: 100%;
+                margin-top: 50px;
+                // transform: translateX(-100%);
+
+                .carouselItemContainer {
+                    width: 70%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: auto;
+
+                    .greenLine {
+                        width: 6px;
+                        height: 150px;
+                        background-color: rgba(229, 229, 229, 0.617);
+                        margin-right: 20px;
+                    }
+
+                    .carouselItemText {
+                        font-family: Arial, Helvetica, sans-serif;
+
+                        h4 {
+                            margin: 10px 0 0 0;
+                        }
+
+                        p {
+                            margin: 0;
+                        }
+
+                        .star {
+                            color: rgb(253, 207, 0);
+                            margin-top: 10px;
+                        }
+
+                        .fa-solid {
+                            color: rgb(47, 47, 47);
+                        }
+                    }
+
+                    .carouselItemImg {
+                        margin-left: 20px;
+
+                        img {
+                            height: 150px;
+                            border-radius: 200px;
+                            border: 3px solid white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .carouselBtn {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+
+        button {
+            background-color: rgba(49, 49, 49, 0.735);
+            width: 10px;
+            height: 10px;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .btnActive {
+            background-color: lightblue;
+        }
+    }
 }
